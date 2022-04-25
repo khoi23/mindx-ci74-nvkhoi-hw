@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.block {
+    margin-top: 100px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    width: 30%;
+    text-align: center;
+}
+hr {
+    display: block;
+    border: none;
+    height: 1px;
+    width: 100%;
+    background-color: #ccc;
+    margin: 10px 0;
+}
+
+input {
+    background-color: rgb(234, 234, 234);
+    border: 1px solid #ccc;
+    padding: 6px 12px;
+    border-radius: 6px;
+    margin-right: 6px;
+    width: 100%;
+    font-size: 18px;
+}
+input[type=text]:focus {
+    border: 3px solid #555;
+}
+
+button {
+    border: none;
+    background-color: blue;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(59, 59, 252);
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 12px;
+    margin: 12px;
+}
+
+
+.list-phone {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 24px;
+    border-radius: 12px;
+    background-color: rgb(234, 234, 234);
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 16px;
+}
+
+

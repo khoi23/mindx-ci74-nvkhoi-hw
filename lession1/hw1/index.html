@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Phone book</title>
+</head>
+<body onload="fetchPhoneBook()">
+  <div class="block">
+    <div class="container">
+      <header class="header">
+        <form action="" class="row" id="input-form">
+          <input type="text" placeholder="Tên"  id="input-author">
+          <input type="text" placeholder="Điện thoại"  id="input-phone">
+          <button type="submit" placeholder="text" class="col-2">Thêm</button>
+        </form>
+      </header>
+      
+      <hr>
+
+      <div class="main">
+        <form action="" class="row">
+          <input type="text" placeholder="Tìm kiếm">
+          <button type="submit" placeholder="text">Tìm</button>
+          <button type="submit" placeholder="text">Xóa</button>
+        </form>
+        <div id="list-phone">
+          <!-- <div class="list-phone">
+            <div class="name">ALICE</div>
+            <div class="phone">09710132</div>
+          </div> -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./main.js"></script>
+</body>
+</html>
